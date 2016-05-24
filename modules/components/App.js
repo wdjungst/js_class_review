@@ -10,8 +10,7 @@ export default React.createClass({
         <h1>Welcome to your app.</h1>
         <ul>
           <li><IndexLink to="/">Home</IndexLink></li>
-          <li><Link to="/dragon">A DRAGON!</Link></li>
-          <li><Link to="/not-dragon">An old URL to a DRAGON!</Link></li>
+          <li><Link to="/about">About</Link></li>
         </ul>
         {this.props.children}
       </div>
